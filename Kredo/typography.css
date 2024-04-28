@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+    font-family: "Oswald", sans-serif;
+    font-family: "Raleway", sans-serif;
+ */
+
+h1 {
+    /* using rgb(red, green, blue) */
+    color:rgb(39, 187, 86 );
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    /* using hexcode */
+    color: #246F3C;
+}
+
+h3 {
+    /* using rgba(red, green, blue, alpha channel:opacity=1(100% visible) .5(50% visible)) */
+    color: rgba(39, 187, 86, .5);
+}
+
+/* font-family : serif; (default font0family in windows)
+    font-family : sans-serif; (default font0family in mac)
+    font-family : monospace; 
+*/
+.chapter-1 p {
+    font-family: monospace;
+}
+
+.chapter-2 p {
+    font-family: "Raleway", sans-serif;
+}
+
+.chapter-1, .chapter-2 {
+    background-color: #D1DFDB;
+}
+
+span {
+    background-color: #C3CAC8;
+}

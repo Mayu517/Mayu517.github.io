@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>Basic Form</h1>
+
+    <form action="#" method="#">
+        <!-- type text : accepts numbers, letters, special characters, space -->
+
+        <!-- Text Input -->
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name" placeholder="First Name" required>
+
+        <br>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name">
+
+        <br>
+        <!-- Password Input -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+
+        <br>
+        <!-- Number Input -->
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="20" max="65">
+
+        <br>
+        <!-- Date Input -->
+        <label for="b-day">Birthday</label>
+        <input type="date" name="b_day" id="b-day">
+
+        <br>
+        <!-- Email Input -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <br>
+        <!-- Textarea -->
+        <label for="comments">Comment</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+        <br>
+        <!-- Radio Button -->
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <br>
+        <!-- Checkbox -->
+        <p>Please select your favorite food</p>
+        <input type="checkbox" name="food" id="ramen">
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox" name="food" id="sushi">
+        <label for="sushi">Sushi</label>
+
+        <input type="checkbox" name="food" id="curry">
+        <label for="curry">Curry</label>
+
+        <br>
+        <!-- Dropdown List -->
+        <label for="device">What is your device?</label>
+        <select name="device" id="device">
+            <option value="macbook">Macbook</option>
+            <option value="ipad">iPad</option>
+            <option value="iphone">iPhone</option>
+        </select>
+
+        <br>
+
+        <p>Birthday</p>
+        <select name="month" id="month">
+            <option value="jan">Jan</option>
+            <option value="feb">Feb</option>
+            <option value="mar">Mar</option>
+            <option value="apr" selected>Apr</option>
+            <option value="may">May</option>
+        </select>
+        <select name="date" id="date">
+            <option value="20">20</option>
+            <option value="21" selected>21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+        </select>
+        <select name="yr" id="yr">
+        <option value="2023">2023</option>
+        <option value="2024" selected>2024</option>
+        <option value="2025">2025</option>
+        </select>
+        <br>
+
+        <select name="course" id="course">
+            <option value="" hidden>Select Course</option>
+            <option value="Bootcamp">Bootcamp</option>
+            <option value="dev-standard">Dev Standard</option>
+            <option value="dev-advanced">Dev Advanced</option>
+            <option value="dev-expert">Dev Expert</option>
+        </select>
+
+        <br><br>
+
+        <!-- multiple Select -->
+        <select name="car" id="car" multiple>
+            <option value="">Select a car</option>
+            <option value="toyota">Toyota</option>
+            <option value="nissan">Nissan</option>
+            <option value="honda">Honda</option>
+        </select>
+
+        <br><br>
+
+        <!-- File Input Box -->
+        <input type="file" name="photo" id="">
+
+        <br><br>
+
+        <input type="submit" name="btn_send" value="Send">
+
+
+
+
+
+
+        <br>
+        <button type="submit" name="btn_submit">Submit</button>
+
+    </form>
+</body>
+</html>

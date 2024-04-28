@@ -1,0 +1,34 @@
+/* Unorderd list */
+ul.a {
+    list-style-type: circle;
+}
+ul.b {
+    list-style-type: square;
+}
+ul.c {
+    /* list-style-type: disc; */
+    list-style-type: none;
+}
+
+/* Ordered list */
+ol.a {
+    list-style-type: decimal;
+}
+ol.b {
+    /* list-style: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style: lower-roman; */
+    list-style: upper-roman;
+}
+
+/* List style position */
+ul.pa {
+    list-style-position: outside;
+}
+ul.pb {
+    list-style-position: inside;
+}
+/* shorthand for list-style of type and position */
+ul.shorthand {
+    list-style: circle outside;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Basic Example</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mary Jones</td>
+                <td>31</td>
+                <td>mary@gmail.com</td>
+            </tr>
+        
+            <tr>
+                <td>Peter Perker</td>
+                <td>25</td>
+                <td>peter@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mary Jones</td>
+                <td>31</td>
+                <td>mary@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mary Jones</td>
+                <td>31</td>
+                <td>mary@gmail.com</td>
+            </tr>
+        </tbody> 
+    </table>
+
+    <!-- thead : defines te head of the table, for lavels -->
+    <!-- tr : defines 1 row -->
+    <!-- th: defines 1 column headinf (bold, centered) -->
+
+    <h2>Colspan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Contact Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mark</td>
+                <td>12345</td>
+                <td>98765</td>
+            </tr>
+            <tr>
+                <td>Bill</td>
+                <td>122211</td>
+                <td>345555</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Rowspan</h2>
+    <table>
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>Mark</td>
+                <td>Bill</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Contact Number</th>
+                <td>12345</td>
+                <td>3111123</td>
+            </tr>
+            <tr>
+                <td>12345</td>
+                <td>3111123</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,33 @@
+table {
+    border: 2px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-collapse: collapse;
+
+}
+
+thead {
+    color: white;
+    background-color: #FA8072;
+}
+
+.no135 {
+    background-color: #F5CBA7 ;
+}
+
+.email {
+    color: blue;
+}
+/* .img {
+    background-image: url('../images/default-profile.jpg');
+} */
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+td {
+    padding: 8px;
+}

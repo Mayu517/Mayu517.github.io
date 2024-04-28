@@ -1,0 +1,58 @@
+h1 {
+    color: red;
+}
+
+/* universal selector */
+* {
+    color: blue;
+}
+
+/* Element selector */
+p {
+    color: red;
+}
+
+/* class selectors */
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.gray-bg {
+    background-color: gray;
+}
+
+/* Id selectors */
+#one {
+    background-color: antiquewhite;
+}
+#two {
+    background-color: burlywood;
+}
+
+h3 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+p.red.gray-bg {
+    font-size: 24px;
+}
+
+p.blue#two {
+    font-size: 24px;
+}
+
+ul li a{
+    color: black;
+}
+
+.apple {
+    color: red;
+}

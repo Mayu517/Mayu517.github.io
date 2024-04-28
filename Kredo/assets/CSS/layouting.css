@@ -1,0 +1,12 @@
+img {
+    width: 350px;
+    height: 200px;
+    /* float: left; */
+    float: right;
+}
+
+.p-clear-1 {
+    /* clear: none; */
+    /* clear: left; */
+    clear: right;
+}
